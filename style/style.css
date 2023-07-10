@@ -1,0 +1,386 @@
+/********
+ General
+*********/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: #C2BCA6;
+    z-index: 1;
+    overflow: hidden;
+}
+a{
+    color: #020202;
+    text-decoration: none;
+}
+
+
+/********
+ UI/UX
+ ********/
+.lineIn{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-top: 500px;
+}
+.lineInt{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 75px;
+    margin-top: 500px;
+}
+.lineIntt{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 150px;
+    margin-top: 500px;
+}
+.Circle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 490px;
+    height: 500px;
+    left: 928px;
+    top: 511px;
+
+    border: 0.2px solid #000000;
+    border-radius: 500px;
+    z-index: -1;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.Circlee{
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 500px;
+    left: 928px;
+    top: 511px;
+
+    border: 0.2px solid rgb(43, 42, 42);
+    border-radius: 500px;
+    z-index: -1;
+    margin-top: 130px;
+    margin-left: 580px;
+}
+.lineIne{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 820px;
+    margin-top: 400px;
+}
+.lineInte{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 890px;
+    margin-top: 365px;
+}
+.lineIntte{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 980px;
+    margin-top: 365px;
+}
+.linea{
+    margin-top: 10px;
+    background-color: black;
+    height: 5px;
+}
+.titulo h1{
+    font-size: 50px;
+    padding: 30px;
+}
+.opciones{
+    display: block;
+    margin-bottom: auto;
+    margin-top: 150px;
+    padding: 50px;
+}
+.opciones > div:hover{
+    color: white;
+    background-color: #0202026e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.a1{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    background-color: #AFA995;
+    border-radius: 5px;
+}
+
+.P-Com{
+    width: 80%;
+    display: block;
+    margin-left: 30px;
+    margin-top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.H-C{
+    display: flex;
+    width: 130%;
+}
+.L1{
+    width: 0.5%;
+    background-color: #020202;
+    margin: 1px;
+}
+.L2{
+    height: 70px;
+    width: 1%;
+    background-color: #020202;
+    margin: 1px;
+}
+.Com{
+    width: 77%;
+    background-color: #AFA995;
+    margin-left:5px;
+}
+.user_comment{
+    font-size: 23px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.square{
+    background-color: #000000;
+    padding: 10px;
+    width: 2px;
+    margin-right: 20px;
+}
+.puntos{
+    width: 1062px; 
+    height: 16px; 
+    position: relative;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.loading{
+    width: 2000px; 
+    height: 2000px; 
+    position: relative; 
+    background: white;
+}
+.fondo{
+    width: 100%; 
+    height: 100%; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #242323;
+}
+.border{
+    width: 90%; 
+    height: 680px; 
+    left: 9px; 
+    top: 50px; 
+    position: absolute; 
+    background: rgba(217, 217, 217, 0); 
+    border:1px solid #fff; 
+    margin-left: 50px;
+}
+.navTitle{
+    width: 100%; 
+    height: 24px; 
+    left: 486px; 
+    top: 15px; 
+    position: absolute;  
+    word-wrap: break-word
+}
+.navTitle h3{
+    margin-left: 270px;
+    color: white; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400;
+}
+.o1{
+    width: 446px; 
+    height: 17px; 
+    left: 80px; 
+    top: 67px; 
+    position: absolute; 
+    word-wrap: break-word
+}
+.o1 h4{
+    color: white; 
+    font-size: 25px; 
+    font-family: Inter; 
+    font-weight: 400;
+}
+.o2{
+    width: 659px; 
+    height: 35px; 
+    left: 80px; 
+    top: 106px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.o3{
+    width: 659px; 
+    height: 35px; 
+    left: 80px; 
+    top: 147px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.infofooter{
+    width: 1252px; 
+    height: 56px; 
+    left: 75px; 
+    top: 751px; 
+    position: absolute; 
+    color: white; 
+    font-size: 15px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+#texto-maquina {
+    border-right: 1px solid #000;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: maquinaEscribir 7s steps(40, end);
+}
+
+@keyframes maquinaEscribir {
+    from { width: 0; }
+    to { width: 30%; }
+}
+
+
+/******
+ Responsive
+ ******/
+@media (max-width: 576px) {
+    .titulo >h1{
+        font-size: 45px;
+    }
+    .opciones{
+        padding: 10px;
+        margin-top: 100px;
+        margin-right: 40px;
+    }
+    .opciones > div{
+        padding: 10px;
+        width: 100%;
+    }
+    .P-Com{
+        margin-top: 100px;
+    }
+    .L1{
+        height: 60px;
+    }
+    .L2{
+        height: 60px;
+    }
+    .Com{
+        height: 60px;
+    }
+    .user_comment{
+        padding: 16px;
+    }
+    .user_comment p{
+        font-size: 15px;
+    }
+    .lineall{
+        display: none;
+    }
+    .puntos{
+        display: none;
+    }
+    .fondo{
+        width: 400px;
+    }
+}
+@media (max-width: 360px) {
+    .titulo >h1{
+        font-size: 45px;
+    }
+    .opciones{
+        padding: 10px;
+        margin-top: 70px;
+        margin-right: 40px;
+    }
+    .opciones > div{
+        padding: 10px;
+        width: 100%;
+    }
+    .P-Com{
+        margin-top: 160px;
+    }
+    .L1{
+        height: 60px;
+    }
+    .L2{
+        height: 60px;
+    }
+    .Com{
+        width:30px;
+        height: 60px;
+    }
+    .user_comment{
+        padding: 16px;
+    }
+    .lineall{
+        display: none;
+    }
+    .puntos{
+        display: none;
+    }
+}

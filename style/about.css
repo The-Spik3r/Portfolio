@@ -1,0 +1,337 @@
+/********
+ General
+*********/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: #C2BCA6;
+    z-index: 1;
+    overflow: hidden;
+}
+a{
+    color: #020202;
+    text-decoration: none;
+}
+
+
+/********
+ UI/UX
+ ********/
+.lineIn{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-top: 500px;
+}
+.lineInt{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 75px;
+    margin-top: 500px;
+}
+.lineIntt{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 150px;
+    margin-top: 500px;
+}
+.Circle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 490px;
+    height: 500px;
+    left: 928px;
+    top: 511px;
+
+    border: 0.2px solid #000000;
+    border-radius: 500px;
+    z-index: -1;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.Circlee{
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 500px;
+    left: 928px;
+    top: 511px;
+
+    border: 0.2px solid rgb(43, 42, 42);
+    border-radius: 500px;
+    z-index: -1;
+    margin-top: 130px;
+    margin-left: 580px;
+}
+.lineIne{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 820px;
+    margin-top: 400px;
+}
+.lineInte{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 890px;
+    margin-top: 365px;
+}
+.lineIntte{
+    position: absolute;
+    width: 1027.17px;
+    height: 0px;
+    left: -22px;
+    top: -141px;
+
+    border: 0.5px solid #212121;
+    transform: rotate(54.67deg);
+    z-index: -1;
+    margin-left: 980px;
+    margin-top: 365px;
+}
+.linea{
+    margin-top: 30px;
+    background-color: black;
+    height: 5px;
+}
+.titulo h1{
+    font-size: 50px;
+    padding: 30px;
+}
+.opciones{
+    width: 1100px;
+    display: block;
+    margin-bottom: auto;
+    margin-top: 150px;
+    padding: 50px;
+}
+.opciones > div:hover{
+    color: white;
+    background-color: #0202026e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.a1{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    background-color: #AFA995;
+    border-radius: 5px;
+}
+
+.P-Com{
+    display: block;
+    margin-left: 30px;
+    margin-top: 170px;
+}
+.H-C{
+    display: flex;
+    width: 100%;
+}
+.L1{
+    width: 0.5%;
+    background-color: #020202;
+    margin: 1px;
+}
+.L2{
+    height: 70px;
+    width: 1%;
+    background-color: #020202;
+    margin: 1px;
+}
+.Com{
+    width: 77%;
+    background-color: #AFA995;
+    margin-left:5px;
+}
+.user_comment{
+    font-size: 23px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.status{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 521px;
+    top: 155px;
+    margin-left: 300px;
+    background-color: rgb(213,207,183);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.Line7{
+    position: absolute;
+    width: 522.02px;
+    height: 0px;
+    left: 455px;
+    margin-top: -200px;
+    border: 10px solid #AFA995;
+    transform: rotate(-90deg);
+}
+.navStatus{
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(74,71,62);
+}
+.name{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.job{
+    padding: 0 25px 0;
+}
+.end{
+    margin-top: 15px;
+    background-color: #000000;
+    height: 2px;
+}
+.info p{
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.lenguaje ul>li{
+    padding: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+.level ul>li{
+    padding: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+li:hover{
+    background-color: rgb(74,71,62);
+    color: #fff;
+    border-radius: 10px;
+}
+.square{
+    background-color: #000000;
+    padding: 10px;
+    width: 2px;
+    margin-right: 20px;
+}
+
+/******
+ Responsive
+ ******/
+@media (max-width: 576px) {
+    .titulo >h1{
+        font-size: 45px;
+    }
+    .opciones{
+        padding: 10px;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+    .opciones > div{
+        padding: 10px;
+        width: 300px;
+    }
+    .P-Com{
+        margin-top: 200px;
+    }
+    .L1{
+        height: 60px;
+    }
+    .L2{
+        height: 60px;
+    }
+    .Com{
+        height: 60px;
+    }
+    .user_comment{
+        padding: 16px;
+    }
+    .lineall>div{
+        display: none;
+    }
+    .status{
+        width: 350px;
+        height: 100%;
+        position: relative;
+        margin-top: -150px;
+        margin-left: -510px;
+    }
+    .Line7{
+        display: none;
+    }
+}
+@media (max-width: 360px) {
+    .titulo >h1{
+        font-size: 45px;
+    }
+    .opciones{
+        padding: 10px;
+        margin-top: 70px;
+        margin-right: 40px;
+    }
+    .opciones > div{
+        padding: 10px;
+        width: 100%;
+    }
+    .P-Com{
+        margin-top: 160px;
+    }
+    .L1{
+        height: 60px;
+    }
+    .L2{
+        height: 60px;
+    }
+    .Com{
+        width:30px;
+        height: 60px;
+    }
+    .user_comment{
+        padding: 16px;
+    }
+    .lineall{
+        height: 10px;
+    }
+    
+}
